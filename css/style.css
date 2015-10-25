@@ -1,0 +1,396 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+body {
+	background: #e2e1e2;
+	color: white;
+	font: 12px 'Roboto', sans-serif;
+	font-weight: 300;
+	margin: 0px;
+}
+
+.content-container {
+	width: 100%;
+	padding: 2em 0em;
+	text-align: center;
+	display: inline-block;
+}
+
+
+#form-container {
+	background: #2f7fca;
+}
+
+#header-container {
+	background: #333333;
+}
+
+/*
+ * clock counter
+ */
+ 
+#clock-container {
+	color: #555555;
+	width:100%;
+	background: #ffffff;
+}
+
+#clock-container p {
+	color: #555555 !important;
+	font-size: 1.5em !important;
+}
+
+#clock-container span {
+	font-weight: 100 !important;
+	font-size: 8em !important; 
+}
+
+.content-wrapper {
+	display: inline-block;
+	width: 65%;
+	height: auto;
+	text-align: left;
+	position: relative;
+}
+
+#main-images {
+	width: 100%;
+	height: auto;
+}
+
+#footer-container {
+	background: #ffffff;
+}
+
+#main-logo {
+	height: 4em;
+	width: auto;
+}
+
+#example {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+#example li {
+	text-align: center;
+	width: 13%;
+	display: inline-block;
+}
+
+#example li.seperator {
+	display: inline-block;
+}
+
+.container-header {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em !important;
+}
+
+/*
+ * email form
+ */
+
+form {
+	min-height: 5em;
+	vertical-align: middle;
+}
+
+form > div {
+	min-height: 5em;
+	vertical-align: middle;
+}
+
+form > div > * {
+	vertical-align: middle;
+}
+
+#mail-form {
+	position: relative;
+}
+
+#mail-form > div {
+	display: block;
+	float: left;
+	text-align: left;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+#mail-form input[type=email] {
+	width: 90%;
+	vertical-align: middle;
+	font-size: 1.1em;
+	border-radius: 5px;
+	height: 1.6em;
+	text-indent: 0.7em;
+	border: 1px solid #c1c2c1;
+	background: #e2e1e2;
+	margin: 1em 1em auto 0em;
+}
+
+#mail-form input[type=submit] {
+	background: #ffffff;
+	font-size: 1.1em;
+	height: 1.9em;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+	color: #2f7fca;
+	font-weight: 500;
+	margin: 1em 0em;
+	padding: 0em 1.7em;
+	vertical-align: top;
+}
+
+#submit-container {
+	width: 30%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#main-form-checkbox {
+	width: 60%;
+	margin-left: 2em;
+	font-size: 0.75em;
+	font-weight: 100;
+	display: inline-block;
+}
+
+#main-form-checkbox > div {
+	line-height: 1.6em;
+}
+
+.squared-chk {
+  width: 1.2em;
+  position: relative;
+  margin: 1.2em 0px 1.2em 5px;
+  }
+  
+.squared-chk label {
+  width: 1.2em;
+  height: 1.2em;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(top, #2f7fca 0%, #2f7fca 100%);
+  background: linear-gradient(to bottom, #2f7fca 0%, #2f7fca 100%);
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+}
+.squared-chk label:after {
+  content: '';
+  width: 4px;
+  height: 2px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border: 2px solid #fcfff4;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.squared-chk label:hover::after {
+  opacity: 0.3;
+}
+.squared-chk input[type=checkbox] {
+  opacity: 0;
+}
+.squared-chk input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+/*
+ * news boxes
+ */
+
+ul.horizontal {
+text-align: center;
+padding:0px;
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+
+ul.horizontal li{
+display: inline-block;
+width: 30%;
+letter-spacing: -0.5px;
+word-wrap: break-word;
+text-align: center;
+vertical-align: top;
+}
+
+div.table ul.horizontal li img{
+width:35%;
+height: auto;
+}
+
+.centered-article {
+	text-align: center;
+	color: #555555;
+	position: relative;
+}
+.centered-article p{
+	margin-top: 3em;
+	text-align: justify;
+	font-size: 1.1em;
+}
+.centered-article h2{
+	font-weight: 300;
+}
+
+/*
+ * footer
+ */
+ 
+#footer-container {
+	color: #555555;
+}
+
+#footer-idfs {
+	width: 25%;
+	position: relative;
+	display: inline-block;
+} 
+
+#footer-idfs img {
+	width: 80%;
+	height: auto;
+}
+
+#footer-others {
+	float: right;
+	display: inline-block;
+	position:relative;
+	vertical-align: top;
+	width: 70%;
+}
+
+#footer-others li {
+	height: auto;
+	position:relative;
+}
+
+#footer-others img {
+	height: auto;
+	width: 100%;
+}
+
+#footer-contact {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	font-size: 1em;
+}
+
+#footer-contact li:nth-child(1) {
+	text-align: left;
+}
+
+#footer-contact li:nth-child(odd) {
+	width: 15%;
+}
+
+#footer-contact li:nth-child(even) {
+	width: 0.5em;
+}
+
+#footer-contact a {
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
+
+/*
+ * top right links
+ */
+ 
+.top-right-icons {
+	display:block;
+	float: right;
+	margin: 0.5em;
+	position: relative;
+	width: 3em;
+}
+
+.top-right-icons img{
+	display:block;
+	float: right;
+	margin: 0.5em;
+	width:95%;
+	height: auto;
+}
+
+/* 
+ * smaller screen sizes
+ * media queries
+ */
+
+@media (min-width: 1500px) {
+	.content-wrapper {
+		width: 60% !important;
+	}
+
+}
+
+@media (max-width: 1100px) {
+	.content-wrapper {
+		width: 75% !important;
+	}
+
+}
+
+@media (max-width: 900px) {
+	.content-wrapper {
+		width: 90% !important;
+	}
+	
+	#example ul {
+		list-style: vertical;
+	}
+}
+
+@media (max-width: 720px) {
+	#footer-contact ul.horizontal li{
+		width: 22% !important;
+		text-align: left;
+	}
+	#footer-contact ul.horizontal {
+		display: block;
+		text-align: left;
+	}
+}
+
+@media (max-width: 650px) {
+	#mail-form  > div {
+		width: 100%;
+		height: 4em;
+	}
+	
+	#example li {
+		width: 40%;
+	}
+	
+	#example li.seperator {
+		display: none;
+	}
+
+	div.table ul.horizontal li{
+		width: 80%;
+		margin: 2em 0em;
+	}
+	
+	div.table ul.horizontal {
+		display: block;
+	}
+	
+	div.table ul.horizontal li img {
+		width: 20%;
+	}
+}
